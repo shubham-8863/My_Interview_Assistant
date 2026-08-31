@@ -291,7 +291,7 @@ function stopRecording() {
 
 // ========== API FUNCTIONS ==========
 
-const startInterviewApiUrl = "http://127.0.0.1:5000/start-interview";
+const startInterviewApiUrl = "https://interview-assistant-backend-teal.vercel.app/start-interview";
 
 
 async function startInterview() {
@@ -326,7 +326,7 @@ async function startInterview() {
     }
 }
 
-const submitAnswerApiUrl = "YOUR_SUBMIT_ANSWER_API_URL_HERE";
+const submitAnswerApiUrl = "https://interview-assistant-backend-teal.vercel.app/submit-answer";
 
 
 async function submitAnswer() {
@@ -399,7 +399,7 @@ async function endInterview() {
     await getFeedback();
 }
 
-const getFeedbackApiUrl = "YOUR_GET_FEEDBACK_API_URL_HERE";
+const getFeedbackApiUrl = "https://interview-assistant-backend-teal.vercel.app/feedback";
 
 async function getFeedback() {
     showFeedbackSection();
