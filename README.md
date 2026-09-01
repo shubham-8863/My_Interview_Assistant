@@ -1,4 +1,4 @@
-# 🎙️ AI Interview Assistant — Backend
+# 🎙️ AI Interview Assistant
 
 Flask backend for an AI-powered technical interview assistant. It uses **Google Gemini** to conduct adaptive interviews, **LangGraph** to maintain conversation state, and **Murf AI** for voice responses.
 
