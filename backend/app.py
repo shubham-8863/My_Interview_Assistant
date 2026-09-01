@@ -30,6 +30,13 @@ app = Flask(__name__)
 CORS(app)
 
 
+@app.route("/", methods=["GET"])
+def health():
+    return jsonify({
+        "success": True,
+        "message": "Interview API is running"
+    })
+
 # ==========================================================
 # AI MODEL
 # ==========================================================
